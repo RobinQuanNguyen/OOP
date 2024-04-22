@@ -43,7 +43,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class Frag_Quiz extends Fragment {
-    final String token = " "; // Add the provided API Key in here
+    final String token = "..."; // Add the provided API Key in here
     final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
     TextView tv_questionCount, tv_question;
     RadioGroup radioGroup;
